@@ -134,7 +134,7 @@ nav a:hover {
 /* =============== PROJECTS =============== */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2. 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 12px;
 }
 
@@ -171,7 +171,7 @@ nav a:hover {
 
 @media screen and (min-width:1025px) {
   .project-grid {
-    grid-template-columns: repeat(1. 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
